@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mandy</title>
+    <link   text="css"  rel="stylesheet"      href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="icon" type="x-icon" href="favicon.ico">
+
+    <script src="game.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Professional Makeup Artist</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                     <li><a href="makeup.html">Makeup</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+<h2>Alert Messages</h2>
+
+<p>Click on the "x" symbol to close the alert message.</p>
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+ <strong>Welcome!</strong> <span class="wishing">Thanks for giving me your precious time and have a look at this website </span>  
+</div>
+
+
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to my website!</h2>
+            <p>I am a professional makeup artist with over 10 years of experience. I specialize in bridal and editorial makeup, and I am passionate about making my clients feel beautiful and confident.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I started my career as a makeup artist over a decade ago, working for some of the biggest names in the industry. I have since started my own business, and I am dedicated to providing the highest level of service to my clients.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Services</h2>
+            <ul>
+                <li>Bridal Makeup</li>
+                <li>Editorial Makeup</li>
+                <li>Special Occasion Makeup</li>
+                <li>Makeup Lessons</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="11.png" alt="Makeup Gallery">
+                <img src="12.png" alt="Makeup Gallery">
+                <img src="13.png" alt="Makeup Gallery">
+                <img src="14.png" alt="Makeup Gallery">
+                <img src="9.png" alt="Makeup Gallery">
+                <img src="16.png" alt="Makeup Gallery">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+
+        <div class="container">
+            <div style="text-align:center">
+              <h2>Contact Me</h2>
+              <p>Contact me by Email or Message  me on Instagram</p>
+            </div>
+            <div class="row">
+              <div class="column">
+          
+              </div>
+              <div class="column">
+                <form  action="mailto:jashanpreetkaur2904@gmail.com" method="post" enctype="text/plain">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name">
+                  <label for="fname">Your Email</label>
+                  <input  type="text" id="email" name="Your email"  placeholder="Your Email">
+          
+                  <textarea id="subject" name="Message" placeholder="Send Me a Message " style="height:170px"></textarea>
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+            </div>
+          </div>
+        
+        
+    </section>
+
+    <footer>
+        <div class="container">
+        
+            <p>&copy;  by Jashanpreet Kaur. All rights reserved.</p>
+
+
+    </footer>
+  </body>
+</html>

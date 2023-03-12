@@ -1,0 +1,316 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #F8EDE3;
+  
+
+}
+
+/* Header styles */
+header {
+  background-color: #D0B8A8;
+ 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.mySlides {display: none;}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 10px;
+
+}
+
+#home #about #services #gallery #contact{
+  padding-top: 50%;
+}
+
+@media only screen and (max-width: 300px) {
+  #home #about #services #gallery #contact{
+    padding-top: 30%;
+  }
+}
+header h1 {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+header nav ul li a:hover {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid;
+  border-radius: 10px;
+ 
+}
+
+/* Section styles */
+section {
+  padding: 80px 0;
+
+}
+
+section .container {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+section p {
+  margin-bottom: 30px;
+}
+
+section ul {
+  list-style: none;
+  margin-top: 30px;
+}
+
+section li {
+  margin-bottom: 10px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin-top: 30px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form label {
+  font-size: 19.2px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Footer styles */
+footer {
+  background-color: #D0B8A8;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 0.9rem;
+  margin-bottom: 0
+}
+
+
+/* for smaller screens */
+@media only screen and (max-width: 600px) {
+  header {
+    background-color: #D0B8A8;
+   
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+
+
+  /* Body styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #F8EDE3;
+ 
+  
+
+}
+header h1 {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  margin-left: 2px;
+}
+
+header nav ul li a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+header nav ul li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+ 
+section {
+      padding: 90px 0;
+    
+    }
+
+section .container {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.alert{
+  margin-top: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+
+
+  }
+footer {
+  background-color: #D0B8A8;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+
+/* The alert buttton  */
+
+.alert {
+  padding: 20px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.wishing{
+  
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+}
+@keyframes example {
+  0%   {font-size: larger;  left:0px; top:0px;}
+  25%  {font-size: larger; left:200px; top:0px;}
+  100% {font-size: small; left:0px; top:0px;}
+}
+
+.closebtn:hover {
+  color: black;
+}
